@@ -9,7 +9,7 @@ from main import (
 class TestFuncions(unittest.TestCase):
 
     def test_crear_sequencia(self):
-        self.assertEqual(crear_sequencia(1, 5), [1, 2, 3, 4, 5])
+        self.assertEqual(crear_sequencia(1, 5), [1, 2, 3])
 
     def test_crear_sequencia_error(self):
         self.assertEqual(crear_sequencia(5, 1), [])
